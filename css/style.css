@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+/* * - all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(227, 241, 217, 0.486);
+}
+
+.container {
+    border: 2px solid blue;
+    height: 100vh;
+    margin: 0 auto;
+    width: 75%;
+}
+.title-container {
+    padding: 1rem 0;
+
+}
+.description-container {
+    padding: 0% 1rem;
+    color: blue;
+    font-size: 1,3rem;
+    line-height: 3,8rem;
+    font-weight: 900rem;
+
+} 
+.description-container {
+    text-align: center;
+
+}   
+
+.title-container h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3,5rem;
+    text-align: center;
+}
+
+
+
+img {
+    width: 150px;
+    border-radius: 15%;
+
+
+}
+
+.tabel-container {
+width: 75%;
+margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+
+}
+#td-method {
+    padding-left: 3rem;
+
+}
+
+#td-method ul li:first-child {
+    margin-top: 2rem;
+
+}
+#td-method ul li {
+    margin-bottom: 2rem;
+
+}
+
+#td-method ul li span {
+    font-weight: bold;
+    font-size: 1,3rem;
+    text-transform: uppercase;
+
+}
+
+#td-ingridients {
+    text-align: right;
+
+}
+#td-ingridients ul li :first-child {
+   margin-top: 0,8%;
+
+}
+
+#td-ingridients ul li {
+    margin-bottom: 0,5rem;
+
+}
+
+.footer ul {
+    padding-bottom: 0,5%;
+
+}
+.footer ul {
+    margin: auto;
+    width: 50%;
+
+}
+
+.footer ul li {
+   display: inline-block;
+
+
+}
+
+.footer ul li:last-child {
+   margin-left: 5rem; 
+ 
+ 
+ }
+.footer ul li a {
+   color: blueviolet;
+   font-size: 3rem;
+ }
